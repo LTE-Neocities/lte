@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The Longest Text Page</title>
+<meta name="description" content="The Longest Text Page is an attempt to try and create the longest webpage of text ever, full of anecdotes and typing." />
+<meta name="keywords" content="text, words, stories, writing, creative, word, typing, bored, boredom, " />
+<style type="text/css">
+
+/*#############################################################
+
+Name: Decayed
+Date: 2007-05-12
+Description: A dark trash style two-column website template. Wordpress theme version available at http://templates.arcsin.se/decayed-wordpress-theme/.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+html {min-height: 100%;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	
+	padding-left: 90px;
+	color: #FFF;
+	font-size:13px;
+        background-color:#000000;
+        background-image: url(templates/Decayed_BlackGreen/resources/palettes/BlackGreen/img/body.gif);
+        background-repeat:no-repeat;
+        background-position:top left;
+        background-attachment:;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6{ 
+	
+	color		: #FFF;
+	margin		: 0;
+	padding		: 0;	
+	font-family	: Georgia, "Times New Roman", Times, serif;
+	margin		: 20px 0 10px 0;
+}
+
+h1{
+	
+	padding: 0 0 22px 0;
+	font-size: 200%;
+	color:#fff;
+}
+
+h2{
+	
+	margin-bottom: 10px;
+	padding: 0 0 22px 0;
+	font-size: 180%;
+	color:#fff;
+}
+
+h3{
+	font-size      	: 160%;
+	padding: 0 0 22px 0;
+	font-size: 13px;
+
+}
+
+h4{
+	
+	font-size      	: 140%;
+
+}
+
+h5{
+	
+	font-size	: 130%;
+
+}
+
+h6{
+	
+	font-size	: 100%;
+
+
+}
+
+p{
+
+	margin: 0 0 10px 0;
+	text-align: justify;
+	line-height: 160%;
+	
+}
+
+blockquote{	
+	font-style		: italic;
+	border-left		: solid 2px;
+	line-height		: 160%;
+	padding: 0 0 0 20px;
+	margin: 0 0 0 20px;
+}	
+
+ol,			
+ul{	
+	padding-bottom	: 15px;
+	margin-left		: 20px;
+	padding-left	: 35px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:2.2em;
+}
+
+ul {
+	list-style	: square;
+}
+
+ol {
+	list-style:lower-roman;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {border: none;}
+
+img.right {margin: 5px 0 5px 12px;}
+img.left {margin: 5px 12px 5px 0;}
+img.border {
+	background: #555;
+	display: block;
+	padding: 3px;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+	font-size: 0;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+.decay,.decay-small {
+	background: url('img/decay.gif') no-repeat left center;
+	color: #000;
+	font: normal 2em Impact,sans-serif;
+	letter-spacing: 1px;
+	padding: 0 0 12px 22px;
+}
+.decay-small {
+	/*background: url('img/decay-small.gif') no-repeat left center;*/
+	padding-top: 6px;
+}
+
+/* structure */
+#container {
+	font-size: 1.3em;
+}
+
+/* title */
+#site-title {margin:0 0 15px 0;}
+#site-title h1{margin:0;}
+a#sys_heading{
+	color: #DDD;
+	text-decoration: none;
+	font-family:Tahoma,sans-serif;
+	font-weight:normal;
+	font-size:50px;
+}
+a#sys_heading:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+#site-description {color: #CCC;}
+
+/* content */
+#content {
+	margin: 90px 0 0 360px;
+ 	width: 610px;
+}
+
+/* navigation */
+#navigation {
+	left: 120px;
+	position: absolute;
+	top: 290px;
+	width: 210px;
+}
+#navigation h2 {
+	color: #DDD;
+	font-size: 1.5em;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin: 0;
+}
+#navigation ul {margin: 0 0 0 1em;}
+#navigation li {list-style: none;}
+#navigation li a {
+	color: #777;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+#navigation li a:hover {color: #8DCA3F;}
+
+.sys_footer{border-top:solid 1px #CCCCCC;padding:20px 20px 10px 20px;text-align:right;font-size: 12px;}
+
+#sys_designerfooter {
+    border: none;
+    margin:0 auto;
+    padding: 0 20px 0 0;
+    background: none;
+}
+
+.sys_footer a{color:#CC3;}/*Stef colors */
+			
+.sys_txt{
+	color: #FFF;
+}
+
+a{color:#CC3;}
+
+.sys_txt a img{
+
+	border : none;
+
+}
+
+.sys_txt a{
+
+	color: #CC3;
+
+}
+
+.sys_txt a:hover{
+
+	text-decoration: none;
+	color: #CC3;
+
+}
+</style>
+<link rel="stylesheet" type="text/css" href="classes/components/Gallery/layouts/Default/Default.css" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script type="text/javascript">window.jQuery || document.write('<script src="classes/commons/jquery/jquery-1.7.1.min.js"><\/script>')</script>
+	</head>
+
+	<body id="sys_background">	
+		<div id="container">		
+			<div id="content">			
+				<div id='site-title'>
+				    <h1 style="text-align:left;"><a id="sys_heading" href="./" style="color:#dddddd;font-size:50px;font-style:normal;font-weight:normal;text-decoration:none;">The Longest Text Page</a></h1>
+				</div>
+				<div style="width: 100%; padding: 0px; margin: 0px" class="layout_1-column">
+    <div id="layout_row1">
+                    <div id="sys_region_1" style="margin:0px; padding:5px; vertical-align:top; line-height:normal; min-width:100px" class="zone_top" ><div id="I1" style="display:block;clear: both;margin:10px 15px 10px 15px;" class="Text_Default">    
+    <div id="I1_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><a name="TOPOFPAGE"></a>
+<h2 align="center">Welcome to the longest text page!</h2><p>This webpage has 4,552 words, including this sentence.<br></p>
+
+</div>
+    
+</div><div id="I24" style="display:block;clear: both;" class="Text_Default">    
+    <div id="I24_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p align="center"><u><font size="5">&nbsp;Table of Contents</font></u></p><ol><li><a href="#READHERE1">Wishing you luck<br></a></li><a href="#READHERE1"> </a>
+<li><a href="#READHERE2">WLTP</a></li>
+<li><a href="#READHERE3">Part Uno (it's mathematical!)</a></li>
+<li><a href="#READHERE4">Part Deux (or a slightly windy transition to French)</a></li>
+<li><a href="#PIRATE">Why the Pirate?</a></li>
+<li><a href="#PARTTROIS">Part Trois (not really)</a><br></li>
+<li><a href="#KNOWINGFRENCH">I Don't Know Any More French</a><a><br></a></li></ol>
+</div>
+    
+</div><div id="I23" style="display:block;clear: both;" class="Text_Default">    
+    <div id="I23_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><a name="READHERE1"></a> <strike><span class="xml-text">Dear Reader, please don't do this to yourself.</span><br><span class="whitespace">&nbsp;</span><span class="xml-text">Seriously - I mean stop.</span><br><span class="whitespace">&nbsp;</span><span class="xml-text">You don't want to torture yourself like this - look at where it's gotten me - so sad and boring, and depressed - don't go there.</span><br><span class="whitespace">&nbsp;</span><span class="xml-text">Just have a happy life, be yourself, enjoy your medium self esteem - please - anything but falling into this trap.</span><br><span class="whitespace">&nbsp;</span><span class="xml-text">Leave - before it's too late - and -</span><br><br><span class="xml-text">Enter at your own ris-</span><br><br><br><span class="whitespace">&nbsp;&nbsp;</span><span class="xml-text">Beware, danger up ahead!&nbsp;&nbsp; <br></span></strike>
+</div>
+    
+</div><div id="I19" style="display:block;clear: both;" class="Text_Default">    
+    <div id="I19_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;">Have fun!<br></div>
+    
+</div><div id="I5" style="display:block;clear: both;margin:30px 10px 30px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#cccccc;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="I21" style="display:block;clear: both;margin:0 0 0 0;" class="Text_Default">    
+    <div id="I21_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><a name="READHERE2"></a> <p align="center"><u><font size="5">WLTP</font></u><span></span></p><p>This... is a - not copy - but <strike>bad </strike>imitation - of <a href="http://www.angelfire.com/falcon/flamingchickens/abcd.html">flaming chicken's website.</a><br></p><p>Truth is, we're very crazy here. Nothing good goes on here. It's sort of a mental hospice, those who come in, don't come out.<br>Mental note you may want to tell yourself: ((We're liars here))<br>&nbsp;Anyways,
+ answers to your questions: The WLTP stands for - yep, you guessed it - 
+the world's longest text page. The second line was a half lie. The 
+following sentence is true. The previous sentence is false. <br>&nbsp;The 
+goal of this webpage? To provide the world's longest text page, in a 
+more easy and readable format. So far, we're competing against something
+ like 36,000 words. About 100 pages of Times New Roman, 12 point font on
+ 6x9 pages. Don't ask us how we know that. It's just easier (and less 
+awkward).<br>&nbsp;Point is, we're writers here. And we're bored.<br>&nbsp;Funny thing is, we have a lot of space to fill. It won't be easy.<br>&nbsp;And
+ before you send us all of these random comments about how this isn't 
+actually the longest webpage, how there are tons of them that are 
+longer, then just chillax. Of course we aren't the longest. Not yet 
+anyways. But how do you expect to be entertained in the meantime?<br>&nbsp;Oh well - the point is - actually, I've lost my point. <br>&nbsp;Oh yes.<br>&nbsp;What
+ would also be nice, would be to have this semi-coherent, and not 
+contain passages like: "I eat 'em 'cause they are a means to convey 
+KETCHUP to my mouth...mmmm....ketchup" or "Brilliant, Ted! But, I'd like
+ to go one step further! Let's make an entire CITY out of cheese!" or "<span class=" wz-italic">"</span>Oh
+ freddled gruntbuggly/thy micturations are to me/As plurdled 
+gabbleblotchits on a lurgid bee." Just a thought (although Douglas Adams
+had the last one)<br>&nbsp;Yeah - this should really start getting coherent. <br>&nbsp;Really, any minute now. <br>&nbsp;Like, in a second.</p><p>__________________________________________________________________<br></p><p>OK - coherency put off for a moment: you know what I hate? I hate these website builders. Because, ya know, first I was on Webs, and I was trying to build a good website - and it was great, you know - and then, all of a suddne, out of the blue, just out of nowhere it doesn't save my text.<br>&nbsp;I was SO annoyed with that - it just didn't save my text at all. Literally, half of the stuff I had just written was gone - and I couldn't get it back - it made me SO mad - and there wasn't a single thing that I could do about it. It just annoyed the heck out of me.<br>&nbsp;You may find that while I'm here, I'll use a lot of euphemisms. You know, keep this all PG. Nice of me, huh?<br>&nbsp;<strike>But, anyways, going along with the whole webpage builder thing - this stupid stuff won't let me format the text - stupid yola - so there you go. Drat that. </strike><br></p><p>I figured out how this works. Never mind. I feel stupid. <br>&nbsp;Oh well.<br>&nbsp;Coherency be dratted.&nbsp;</p><p><br>Author's disclaimer: We aren't really trying very hard to insult flaming chicken, and would really prefer that he/she looked upon it as devoted (creepy) flattery. Because we really do have a lot of respect for them. <br>&nbsp;As much respect as we do for anyone els- <br>&nbsp;Silly interns.<br>&nbsp;Now then - I believe we were just about to get coherent</p><p>***</p><p>Once upon a time - No Ted, That's Not At All How It Goes - why did you just type in all caps? - Those Aren't All Caps, Because THIS IS ALL CAPS YOU @&amp;*#@)$(&amp;.</p><p>&nbsp;Now then,</p><p>&nbsp;OK, time to start storytelling.</p><a name="READHERE3"></a><p><u><font size="5">Part Uno.</font></u></p><p>&nbsp;The beginning.</p><p>Hmmm...</p><p>Umm...</p><p>OK then. I've got it.</p><p>Once upon a time, on a bright cold day in April, Ted started to walk around the corner.</p><p>((Don't write stories about me. Not nice.))<br>Now, Ted wouldn't exactly be what could be considered a nice man. In fact, he was rather a bit of a bully -&nbsp; a mean person that no one enjoyed being around much. He was attractive as men went - blond hair, blue eyes, lots of class, 6'5" - you know what I mean.</p><p>((That's Hot Problems you idiot))</p><p>((They aren't 6'5"))</p><p>((I TOLD you not to write stories about me!))</p><p>((I swear this isn't a story - this is the gospel truth))</p><p>So Ted was walking around a corner, when he saw another man. He was working for the same company that he currently worked for, he had went down and bumped into him - quite literally - the other day, when getting a water from the company fridge, something he did quite often, quite putting the company into debt, quite giving Poland Springs quite a lot of money, quite...</p><p>&nbsp;But Ted that day bumped into someone - and that someone was holding hot coffee, which just so happened to be very, very hot - hence the hot in the beginning - and it spilled right down his white office shirt.</p><p>&nbsp;However, Ted, not being of the brightest type, did not exactly notice, and ignored the gasping of the poor person behind him, simply instead just walking away. Like a mean person. Nice, huh?&nbsp;</p><p>((You idiot - you bumped into me))<br>((Just because I'm not a giant like you are doesn't mean that you should be always right))<br>((Shut up you idiot))<br>((Creative insults you've got there don't you))<br><br><i>[Further conversation disabled, as it is not helpful to the webpage, even if it is expanding. Start getting along you two - we aren't in kindergarten anymore.</i></p><p><i>&nbsp;Don't forget to sign out at the end of your session. Thanks!<br>Have a nice day! <br>Human Resources Director, -------- Brown]</i><br><br>Anyways, as I was saying before I was so RUDELY interrupted...<br>&nbsp;Now, that same day, Ted decided to take a route - different from the one that he normally took home from work. That day, he attracted a lot of stares, being as tall as he was. So he kept walking down the pavement, and turned a sudden right - suddenly, he was in a place that he was not aware of its existence.<br>&nbsp;((Nice grammar you id-jerk))<br>Now - <i>ooh, it's late, doing work. Going to bed. Night!</i></p><p><i>7.20.12</i>, <i>K.D.&nbsp; T.P.</i><br></p>
+<a name="READHERE4"></a><p><font size="5"><u>Part Deux</u></font></p><p>((Oh - you didn't know we'd be speaking in french?))<br></p><p>Well, we're back - and along with that, we're still incoherent and slightly insane. Fun of us, isn't it?<br>Now, we should point out, before we continue this morning, that we hope you don't bombard us with millions of messages about how this isn't the world's longest text page, that still, this is nowhere near the record.</p><p>&nbsp;Cool down - Kay? ((We know we already said that before))<br>We're working on it.</p><p>We'll get there (eventually). But what would entertain you so distastefully in the meantime?</p><p>Huh. So...</p><p>Listening: Taylor Swift</p><p>Eating: Donuts</p><p>Going: Slowly Insane</p><p>((I can't believe you still listen to Taylor Swift - that's like SO 2006-))</p><p>((Shut up Intern))</p><p>Anyways, you were probably wondering how Ted was doing, weren't you.</p><p>&nbsp;Well, since he's not here at the office yet (and he made the mistake of leaving his computer unattended - Windows as well, crashes won't look deliberate...) we might as well continue with the nicer version, shall we?<br>&nbsp;Please?</p><p>&nbsp;Ted was in the alleyway - and it started to rain, and he was starting to get soaking wet, and he continued to stare at the bright neon lights, wondering if he would EVER get literate again - and then he was punched in the stomach - dropped everything, including his briefcase - and wondered where the punch came from. Well, indeed, it had come from a short little fat man, but in a white shirt that was covered in coffee that-hey!</p><p>((Windows - when you need 'em they crash - and yet for some reason, when coffee spills across the keyboard, they work perfectly))</p><p>((I got a new keyboard from Human Resources ;p ))</p><p>((That's not an emicon. What are you - seven?))</p><p>((Seven year olds use emicons? What is this world coming to?))</p><p>((You [insert swear word of choice here :) ] ))</p><p>[Further conversation disabled, as it is not productive towards the completion of this webpage. Stop fighting you two - I'm considering a deep pay cut for both of you.</p><p>Don't forget to sign out at the end of the day. Thanks!</p><p>Have a nice day!</p><p>Human Resources Director, ------ Brown]</p><p><i>Well, I'm signing out now - I don't know about TED, but... I'm going to get lunch now. Ugh. <br></i></p><p><i>7.21.12&nbsp; K.D.</i></p><p><i>I'm also signing out - lunch, hmm...</i></p><p><i>7.21.12&nbsp; T.P</i></p><p>***</p><p>Hey! We're back all ready.</p><p>&nbsp;Well, truth is, it's neither Ted, nor the one writing about Ted - instead, it's the Intern. For security reasons, I'm not supposed to disclose my name ((is that right?))</p><p>Anyways, someone told me to give you guys a history of the project. <br></p><p>So I came to this company sort of as a summer job - I was supposed to just overlook office supplies, make sure that people weren't stealing pens and all of that stuff - when this project emerged. It was entitled "Effective ways for co-workers to spend free time". You see, everyone here decided that too much of the co-worker's free time was spent on just throwing paper wads and so forth at each other over the cubicles - and obviously, there was a huge need for a project. So this was the final outcome. So... <br>&nbsp;No, we didn't actually devote an entire company to making the world's longest text page - but with so many people, it can't be that hard, can it?<br>&nbsp;So, wish us luck.<br>&nbsp;I was supposed to be eating lunch right now, and I'm a slow typer. I can't believe that I'm bothering with this. <br>&nbsp;Oh well. It's been ten minutes all ready - I'm going to McDonalds today - hmm - fish or beef or chicken today? I bet Fast Food Nation is a pretty much bluff anyways.</p><p>[This post, grammatical and spelling errors&nbsp; fixed by ------ Brown]</p><p><i>7.21.12 I.N.<strike>T.E.R.N.</strike></i></p>
+<a name="PIRATE"></a><p><u><font size="5">Why the Pirate?</font></u></p><p>Well, it's kind of a funny story actually.</p><p>&nbsp;You see, we all were gathered around Ted's computer (He's left for the day, lazy @&amp;$*@@^$) gathering around it, and we all decided upon the website theme together. Funny how it happened, huh? And, well, we didn't really all like the pirate&nbsp; but it was the one thing that had a black background with a pretty font (or as pretty as fonts can go)&nbsp;</p><p>&nbsp;So... that's it! That's the story behind the pirate. Eventually, we'll probably go on and switch the theme to something prettier - I doubt it though. We like white against black, pretty background that way. <br></p><p><i>7.21.12&nbsp; K.D.</i></p><p>***</p><p>Hey there! It's Eula, the secretary! I just finished signing people out today - I'm going to be sitting here awhile, with nothing else to do - silly coworkers just left, lunch is on the double, and I forgot a book today - oh well, I told myself, this will just have to do! I'm good at typing anyways too - around 90 wpm without any typos! Grammar is another thing, but no one really cares about that anyways! I can has done!<br></p><p>So, I just want to tell a story. It's pretty funny!<br></p><p>So guess what: I'm 22! I live in a big house, with my parents still, but that's OK, because they say I'm nice to have around! I'm their baby, their youngest child!</p><p>&nbsp;So we have this beautiful cat, Versatchi (I'm not completely sure how to spell that one, even though I'm a secretary!). She's so cute, and she's a calico - that means she's kind of a blend of brown and black - you know what I mean. She has a white stomach though.</p><p>&nbsp;Well, Versatchi, she's gone into heat, and last night, she was outside, and I was so worried about her - we have a fisher cat in our neighborhood! And the funny thing is I let her out around 3 o'clock in the afternoon yesterday - and I thought she'd come back, but no, around eleven o'clock, I came back, and I found her still outside, so I called her but she's not the smartest cat - and so she didn't come back! And so I kept calling her but she wouldn't come back! And so I went to bed, but I was so scared for her. And then this morning I found her outside again! And I was so happy - I love you Versatchi! But there was this other cat, that was completely gray, that I saw running away! <br></p><p>&nbsp;I bet that's her boyfriend. And - ooh, I'm supposed to keep this PG, in case there are kids reading this, aren't I - well, I bet they made some kittens last night :)</p><p>&nbsp;Anyways, that's all I have time for right now - but it's a funny story, don't you think so?</p><p>&nbsp;Ooh - I forgot to do that funny thing that the other guy did earlier. It's like:</p><p><strike>Music</strike> Listening to: Selena Gomez (Who says) I love that song!</p><p>Ooh - how do I sign out?!</p><p><font size="4">Umm - it's like;</font></p><p><i>7.21.12 E.D.</i></p><p>Bye!</p>
+<a name="PARTTROIS"></a><p><u><font size="5">Part Trois (not really)</font></u></p><p><font size="4">Listening to: Taylor Swift, The Story of Us</font></p><p><font size="4">Yeah, it turns out that most of us here are "Swifties". Not really.</font></p><p><font size="4">Hey, it's Jason here. And as a little fact, I've noticed that when we have something followed by a colon - as in "Listening to: 'Taylor Swift'", it's called metadata on some sites. Of course, in all fairness, most of the time, the words are put in ALL CAPS but minor details, right? Right?</font></p><p><font size="4">So, it's pretty late - and not to be all hippie and stuff, or new age or anything - but guess what? (Ugh, I hate the sound of that phrase)</font> They just shared this website and its login info to our offices across the US. Not that we're really a big company or anything- we really aren't, but the company likes to think that we are - so basically, we have offices in New York, and in - well, let's not go into further detail than that - but let's just say I'm not even in New York, but in a time zone further east. I'm not even really supposed to say what my first name is - but in all fairness, Eula and Ted already did that, so I should be fine. It's pretty boring here. Ugh.</p><p>Anyways, the point is, it's pretty late here also - almost ten thirty - and I'm sleepy. Feeling like I should go to bed - but yet I'm still up, typing away on this computer. <br></p><p>&nbsp;You may be wondering why I'm bashing the company here: two reasons. First, it's such a small company that&nbsp; no one will really mind - and second, considering henceforth, that no one will ever read this. It would be extremely depressing if they did - already it's an awkward and bulky mess, and that's only at barely 2.5K What will it be like when it's four, five times that size? I've only read this in skimming so far, and it looks awful - I couldn't bear to have myself read anymore than that - it would just be depressing. <br></p><p>#Just changed to "Sparks Fly" in music#</p><p>I'm tired, and I will go to bed now. Good night.</p><p><i>7.21.12 J.A.</i></p><p>***</p><p>Well, it's only 5:38 PM here in our NY offices (as Jason noted, even though he wasn't supposed to.</p><p>LISTENING TO: The Kooks (might as well spice some things up from the other Swifties and/or Gomez - es?)</p><p>&nbsp;Also, I took the intern's advice, and I decided to use all caps. I have to agree with him on that one issue - this webpage is a jumbled mess, and although crying out for organization, that I'm not really in the mood to do right now, I will say that after all, I might as well do a little bit, which consists of using all caps when typing stuff. <br></p><p>I will eventually put anchor tags on all of this stuff - but I'm not really in the mood to right now. I'll get on it eventually - but just considering how no one is actually reading this webpage except for like, five people (is it even that many?), I'll just leave this blank for now. <br></p><p>Huh. Not much else to say. Signing out. <br></p><p><i>7.21.12&nbsp; T.P.</i></p><h5>A Message From The Project Director</h5><p>To all WLTP users:<br>Please note, from now on, certain standards WILL be enforced:</p><p>There will be no more "short, one two paragraph posts in the future - all posts written should be of longer length than that. Although this is a mess, it does not need to become more unorganized than it already is.</p><p>Also: if you feel it is necessary, please add a new title, followed by an anchor post, as Ted was so kind to suggest. Anchors will help keep our table of contents complete and together.</p><p>Thank you very much,</p>Don't forget to sign out at the end of the day. Thanks!<br>Have a nice day!<br>Human Resources Director, ------ Brown.<br><br><h5>Now, back to the text page...</h5><p>Ahem, Eula here again!</p><p>I know, I know, I wrote a long post last time... but that's good! That means that before they even enforced the standards, I was following them! Yay!</p><p>Now, the thing is, kind of funny at that, they want ME to do the anchor tags. Me! Isn't that great? That's just so... awesome!</p><p>Yes!</p><p>Although I really don't know much about HTML... I don't want to screw anything up... On the other hand - well, there is no other hand!</p><p>Actually, on the other hand, it's harder (a lot harder) to insert anchor tags becuase his web editor doesn't react to HTML that well. I'll have to speak with them about that. <br></p><p>And I'm not very skilled!</p><p>Oh well - signing off for now! I can't wait to get started! I won't sign out yet, because I'm certain I'll be the first person to be back (and I mean RIGHT back) on here. So I'll have to be quick! Silly anchor tags! They'll be a snap!</p><p>*** <br></p><p>I was going to type something, but I don't want to interrupt Eula. Signing off,</p><p>7.21.12 (I'm not using italics anymore - too annoying) J.A.</p><p>*** <br></p><p>Oh don't be silly Jason, you aren't annoying me! You're just going to help me, because we need all the help we can get to fill this webpage up, don't we?</p><p>Anyways, I am so so SO SO SO excited: I'm almost done with the tags - but in short, now we can click on the top, and actually get to the sections we want to get to! Isn't that great?!</p><p>&nbsp;I'm so happy!</p><p>Anyways, I'd better go finish that. <br></p><p>But I'll sign off, just in case someone else (hint hint Jason :) ) wants to work on this. Have fun!</p><p>7.21.12 (I think the no italics is cute!) E.D.</p><a name="KNOWINGFRENCH"></a><p><u><font size="5">I Don't Know Any More French...</font></u></p><p>So, this is Jason, again (I'm sorry Eula for making more work for you on the anchor tag front - but I couldn't resist - it just seemed like it needed a new section.</p><p>&nbsp;Anyways, it's a lot later here now - maybe one or two in the morning, I haven't checked in awhile, and I'm so, so tired, that I can't even think well. So I'm going on here - hoping the black (ignoring the white text) will kind of soothe me back to sleep. <br></p><p>*Yawn* I want to quit, but I'm determined to follow up on Brown's rule about writing more than just a couple of paragraphs. Give me a moment to collect myself.&nbsp;</p><p>OK. Back.</p><p>Technically, it is approximately 9:58 PM in our New York offices. Not bad, eh?</p><p>Aside from the fact that right now, it's really *checks computer screen* 2:58 right now. Great. AM, by the way.</p><p>I can't even think - my head is so tired - and at the same time, I haven't even gotten any sleep for the past two, three hours. It's completely bugging me. <br></p><p>I've Googled some sites in hopes of finding a cure - and what is probably easiest is tea. Like usual. Only I'm so tired, I may break out tea bags - a last resort for me even.</p><p>Oh well.</p><p>7.21.12 J.A.</p><p>***<br></p><p>Oh Jason, I hope you feel better in the morning! It's 10:30 here now, and I feel so bad for you! I hope you feel better! Being tired is not fun! :(! Eula's here for you :(!<br></p><p>Listening to: Lady Antebellum, Need You Now.</p><p>Anyways, recently (ten minutes ago) I got an email from the Human Resources Director, ------ Brown. It said:</p><p>"<i>To all of the users of the WLTP website:</i></p><p><i>Please note, that from now on, it would be great (required) for you to write things that were anecdotal, and not rather things that were related to what was going on specifically at the moment.</i></p><p><i>Thanks!</i></p><p><i>Don't forget to sign out at the end of your session! Thanks!</i></p><p><i>Have a nice day!</i></p><p><i>Human Resources Director, ------ Brown</i>"</p><p>So right now, I'm supposed to be telling you guys a story! )OK then!</p><p>So today, I got a call from my mom - it wasn't good call, if that's what you're worried about.</p><p>It turned out, my little cousin, whose staying here this summer, was on her tire swing (it used to be mine) and - actually I'm tired, and unlike Jason, I'm always out like a ROCK. So I have to go to bed right now, rather than face slightly narcolepsic (is that the word?) symptoms. Nighty night!</p><p>7.21.12 E.D.</p><p><i>Quick update from the HR Director here: We have recently been trying to contact Flaming Chickens to no avail. Should any of you by some freak 1 in 7 billion chance BE (or know) Flaming Chicken, please email us, using the contact form.</i></p><p><i>Don't forget to sign out at the end of your session! Thanks!</i></p><p><i>Have a nice day!</i></p><p><i>HR Director, ------ Brown</i></p><p><i>Yes, I changed it.</i></p><p>***</p><p>Well, right now, it's 11AM, and you know what? No one else has updated this (aside from ------ Brown - and they don't count). I find that kind of depressing! I mean, seriously, doesn't anyone else write on here? Well <i>I</i> think that it's fun!</p><p>But oh right! I was telling you guyses stories!</p><p>So!</p><p>Anyways, I got the call from Mom the other day, and it turned out, that my cousin who's like seven was staying with her, because my aunt and uncle were on vacation! So she was on my tire swing (from the 90's) and she got this stupid silly idea to just go and try swinging off the top of her plastic slide with it, which obviously was kinda a bad idea. <br></p><p>So then... she stood at the top of the plastic slide, and then she jumped onto the tire swing from here - and you know what?</p><p>The rope broke!</p><p>&nbsp;So my mom heard all of the screaming and just then decided that she would need to find out what was going on&nbsp; -and so she did! And she went into the lower yard, and she told her to tell her what happened, and obviously she found out, and so then, she did that, and then it turned out that her hip hurt and her leg hurt, and she didn't have to go to the hospital or anything, but she still had to - you know, get the alcohol and band aids put on! And it hurt a lot, but she was OK in the ending!</p><p>O_O Jason, by the way, I just noticed your last post - don't worry about anchor tags silly!&nbsp; :) I don't mind doing them at all! :) They're sort of fun in a way! <br></p><p>Anyways, I don't have any more stories to tell, so now, I'm going to sign off! I hope someone else uses this in the mean time! :)</p><p>7.22.12 E.D.</p><p>***</p><p>OK - so really, I had NO idea that our secretary was this chipper.</p><p>Hi. I'm the Intern. I'm back. I got this summer job - well, actually, I won't even go there. I'm not exactly sure why I'm still typing, since there are a ton of better things for me to do - but that last rule that occurred a little while ago, that one where you are supposed to write a lot - well, I'm just going to keep to that rule. Maybe I'll do well.</p><p>Oh, right, I'm supposed to write a story. Ugh - I"m so bad at creative writing, even if it is based on real life. I don't enjoy it either. <br></p><p>"Then why are you on this b-" you ask me before I interrupt: "Because it's company policy!"</p><p>Huh. Letsee. Creative Writing.</p><p>Guess I'll use the photos below.</p><p>OK. First story. Based on real life.</p><p>The other day (year) I was biking across a bridge. And it was a big bridge, with lots of cars. And I was almost all of the way across it, when my tire swerved into the middle of the road, and I almost got hit by a car. But that wasn't the worst of it. The worst of it was the fact that I actually caused a car crash. You see, when I swerved, I almost hit a car, who in turn swerved to avoid me. And that car almost hit another car, which almost hit another car, which almost hit another car, which almost -well, anyways, thirty five cars or so later, a car actually did hit another car, that dented its bumper - so I've been feeling guilty ever since, so much so that I haven't even touched a bike, which hasn't been that good for health reasons, but at least I haven't caused another car crash.</p><p>OK, never mind.</p><p>I can include my initials now!</p><p>[This post, grammatical and spelling errors fixed by ------ Brown]<br></p><p>7.22.12 J.T.</p><p>***<br>OK-&nbsp; as the first poster ever on this... website (what should I be calling it - blog? That's the first thing that does come to mind, but still...) - aside from ------ Brown - anyways, I can't believe this wasn't updated yesterday! That shocks me, pretty badly, I don't mind saying.</p><p>Actually, scratch that, I'm listening to music, and I don't even know what I'm typing. <br></p><p>Or, really, I should say;</p><p>LISTENING TO: Owl City, Good Time</p><p>Does anyone else get @$(#@) off when they see ads on Youtube? I mean really, what is this world coming to?<br>OK, so guess what? I'm not feeling creative today, and it's been a really bad day - so you know what? I'm just going to use...</p><p>Mwa ha ha!</p><p>A STORY generator *smug grin*</p><p>Well, actually, I can't copy and paste on here, so I can't really use one of those story generators.</p><p>BUT I can use a story IDEA generator.</p><p>I'm going to use the one from <a href="http://www.seventhsanctum.com/generate.php?Genname=storygen">Seventh Sanctum. </a><br></p><p>Anyways, here's the first one I got:</p><p><font size="3"><i>This is a rags-to-riches story with a focus on discovery. The story is 
+about  a hysterical acrobat.  It takes place in a pharmacy in Toronto.  
+The critical element of the story is an accident while traveling. <br></i></font></p><p><font size="3"><font size="4">OK... so that definetely doesn't make things easier.</font></font></p><p><font size="3"><font size="4">Hmm.</font></font></p><p><font size="3"><font size="4">I'm signing off for now - I'll be right back (maybe)</font></font></p><p><font size="3"><font size="4">7.24.12 K.D.</font><br></font></p><p><br></p><p> <a href="#TOPOFPAGE">Back to the top</a></p>
+
+
+</div>
+    
+</div><div id="I6" style="display:block;clear: both;margin:0 -15px 0 -15px;" class="Gallery_Default"><div class="yola_gallery_widget" style="padding:10px;text-align:center;">
+    
+            
+        <link rel="stylesheet" type="text/css" href="classes/components/Gallery/resources/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+        
+        
+    <div class='polaroid'>
+    
+                    
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s1.yolacdn.net/V0024192/ide/images/template/personal/gallery1.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s3.yolacdn.net/V0024192/ide/images/template/personal/thumb1.jpg);'></span>
+                                            </a>
+                </span>
+                
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s2.yolacdn.net/V0024192/ide/images/template/personal/gallery2.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s1.yolacdn.net/V0024192/ide/images/template/personal/thumb2.jpg);'></span>
+                                            </a>
+                </span>
+                
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s3.yolacdn.net/V0024192/ide/images/template/personal/gallery3.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s2.yolacdn.net/V0024192/ide/images/template/personal/thumb3.jpg);'></span>
+                                            </a>
+                </span>
+                
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s1.yolacdn.net/V0024192/ide/images/template/personal/gallery4.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s3.yolacdn.net/V0024192/ide/images/template/personal/thumb4.jpg);'></span>
+                                            </a>
+                </span>
+                
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s2.yolacdn.net/V0024192/ide/images/template/personal/gallery5.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s1.yolacdn.net/V0024192/ide/images/template/personal/thumb5.jpg);'></span>
+                                            </a>
+                </span>
+                
+                            
+                <span class='item portrait'>
+                    <a class='backing' rel='lightbox[gallery_widget_I6]' href='http://s1.yolacdn.net/V0024192/ide/images/template/personal/gallery10.jpg' title=''>
+                                                    <span class='image' style='background-image:url(http://s2.yolacdn.net/V0024192/ide/images/template/personal/thumb6.jpg);'></span>
+                                            </a>
+                </span>
+                
+                        
+                
+    </div>
+    
+            
+        <script type="text/javascript" src="classes/components/Gallery/resources/jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){ try{ $('div#I6 a').lightBox({locale : ''}); }catch(err){}; });
+        </script>
+        
+        
+</div></div><div id="I8" style="display:block;clear: both;margin:30px 10px 14px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#cccccc;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="I9" style="display:block;clear: both;margin:0 0 0 0;" class="Layout1_Default"><table border="0" cellspacing="0" cellpadding="0" style="width:100%;"><tr><td id="Left_I9" style="text-align:left; vertical-align:top; width:22.56235827664399%;" ><div id="I11" style="display:block;clear: both;text-align:left;margin:0 10px 0 10px;" class="Social_LikeStrip_Default"><div>
+    <table cellpadding='0' cellspacing='0' style='width:100%;'>
+        <tr>
+                        
+                            
+                <td>
+                                        
+                        <table cellpadding='0' cellspacing='0'>
+                            <tr>
+                                <td style='vertical-align:bottom;'>
+                                
+                                    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                                    <a href="http://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="none">Tweet</a>    
+                                
+                                </td>
+                                <td style='vertical-align:bottom;'>
+                                
+                                    <div style='padding:0 5px;'>
+                                        <iframe src="http://www.facebook.com/plugins/like.php?send=false&amp;href=http%3A%2F%2Fnuclearpoultry.yolasite.com%2F&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;width=49&amp;height=20&amp;locale=en_US" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:49px;height:20px;" allowTransparency="true"></iframe>         
+                                    </div>
+                            
+                                </td>
+                                <td style='vertical-align:bottom;'>
+                            
+                                    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+                                      {lang: 'en-US'}
+                                    </script>
+                                    <g:plusone size="medium" count="false"></g:plusone>
+                                    <script type="text/javascript">gapi.plusone.go();</script>
+                            
+                                </td>
+                            </tr>
+                        </table>
+                        
+                                        
+                </td>
+                
+                            <td style='width:100%;'></td>
+                    </tr>
+    </table>
+</div></div></td><td id="Right_I9" style="vertical-align:top; width:77.43764172335601%;" ><div id="I10" style="display:block;clear: both;margin:3px 15px 0 15px;" class="Text_Default">    
+    <div id="I10_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p>&nbsp;</p></div>
+    
+</div></td></tr></table></div></div>
+            </div>
+</div>			
+				
+				<div id='sys_footer' class='sys_footer'></div>
+				
+			</div>
+			<div id="navigation">
+				<h2 class="decay-small">Menu</h2>
+				<ul class='sys_navigation'>			
+											
+																									
+													<li class="first"><a href="./" title="Home">Home</a></li>
+									
+											
+																		
+												
+													<li><a href="gallery.php" title="Gallery">Photo Gallery</a></li>
+									
+											
+																		
+												
+													<li><a href="contact.php" title="Contact">Contact</a></li>
+									
+											
+																		
+												
+													<li><a href="company-only.php" title="Company Only">Company Only</a></li>
+									
+									</ul>
+			</div>
+		</div>
+	
+<style type="text/css">
+    #sys_yolacredit_wrap{text-align:center;}
+    #sys_yolacredit{text-align:center;line-height:1.2em;margin:1em auto;font-family:Arial;position:relative;background:#fff url(classes/commons/yola_footer/png/sprites.png) top right no-repeat;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;padding:13px 73px 15px 17px;color:#222;font-size:18px;display:inline-block;}
+    #sys_yolacredit p{margin:0;padding:0;line-height:1.2em;}
+    #sys_yolacredit p a{color:#222;text-decoration:none;}
+    #sys_yolacredit p a:hover{text-decoration:underline;}
+    #sys_yolacredit_message{display:none;color:red;padding:20px 20px 20px 110px;background:url(classes/commons/yola_footer/png/sprites.png) 20px center no-repeat;position:absolute;top:0;right:0;z-index:1;}
+    #sys_yolacredit_message_wrap{display:none;position:absolute;top:0;right:0;padding-bottom:25px;background:url(classes/commons/yola_footer/png/sprites.png) bottom left no-repeat;}
+    #sys_yolacredit_message_wrap_inner{font-size:13px;opacity:.8;filter: alpha(opacity = 80);background:#797979;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
+    #sys_yolacredit_message p{width:260px;padding:5px 0;margin:0;text-align:left;color:#fff;font-size:13px;background:transparent;position:relative;}
+    #sys_yolacredit a.yola{font-size:0;position:absolute;top:5px;right:0;display:inline-block;width:65px;height:37px;float:right;text-decoration:none;color:"#fff";}
+    #sys_yolacredit a.yola:hover;{text-decoration:none;}
+    #sys_yolacredit a.yola span{display:none;}
+</style>
+<!--[if lte IE 6]>
+    <style type="text/css">
+        #sys_yolacredit{background:#fff url(classes/commons/yola_footer/gif/sprites.gif) top right no-repeat;}
+        #sys_yolacredit_message{background:url(classes/commons/yola_footer/gif/sprites.gif) 20px center no-repeat;}
+        #sys_yolacredit_message_wrap{background:url(classes/commons/yola_footer/gif/sprites.gif) bottom left no-repeat;}
+        #sys_yolacredit_message_wrap_inner{filter: alpha(opacity = 100);}
+    </style>
+<![endif]-->
+<div id="sys_yolacredit_wrap">
+        <span id="sys_yolacredit" style="" title="Visit Yola.com to create your own free website">
+        <div id="sys_yolacredit_message">
+            <p>This free website was made using Yola.</p>
+            <p>No HTML skills required. Build your website in minutes.</p>
+            <p>Go to www.yola.com and sign up today!</p>
+        </div>
+        <div id="sys_yolacredit_message_wrap">
+            <div id="sys_yolacredit_message_wrap_inner"></div>
+        </div>
+        <p>Make a <a href="http://www.yola.com/">free website</a> with <a class="yola" href="http://www.yola.com/"><span>Yola</span></a></p>
+    </span>
+</div>
+<script type="text/javascript">
+    document.getElementById("sys_yolacredit").onmouseover = function(){
+        var m = document.getElementById("sys_yolacredit_message"),
+        w = document.getElementById("sys_yolacredit_message_wrap"),
+        n = document.getElementById("sys_yolacredit_message_wrap_inner");
+        m.style.display = "block";
+        w.style.display = "block";
+        m.style.top = (m.offsetHeight * -1 - 15) + "px";
+        w.style.top = m.style.top;
+        m.style.right = (m.offsetWidth * -1 + 78) + "px";
+        w.style.right = m.style.right;
+        n.style.width = m.offsetWidth + "px";
+        n.style.height = m.offsetHeight + "px";
+    };
+    document.getElementById("sys_yolacredit").onmouseout = function(){
+        document.getElementById("sys_yolacredit_message").style.display = "none";
+        document.getElementById("sys_yolacredit_message_wrap").style.display = "none";
+    };
+</script>
+
+<script type="text/javascript">
+            var _yts = _yts || [];
+            _yts.push(["_siteId", "8a4986ca3891c9dd0138a74b96351b02"]);
+            _yts.push(["_trackPageview"]);
+            (function() {
+                var yts = document.createElement("script");
+                yts.type = "text/javascript";
+                yts.async = true;
+                yts.src = "http://analytics.yola.net/tracking.js";
+                (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(yts);
+            })();        
+        </script><!-- Start Quantcast tag -->
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+    <script type="text/javascript">_qacct="p-b8x17GqsQ_656";quantserve();</script>
+    <noscript>
+        <a href="http://www.quantcast.com/p-b8x17GqsQ_656" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-b8x17GqsQ_656.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+    </noscript>
+    <!-- End Quantcast tag --></body>
+
+</html>

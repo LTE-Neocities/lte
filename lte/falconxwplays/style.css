@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: yellow;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+hint{
+  background-color:#000000;
+  color:#000000;
+}
+
+div {
+  text-align: center;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: purple
+}
+
+a:active {
+  color: purple
+}
