@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  color-scheme: dark;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.box {
+  text-align: center;
+  margin: 1% 1%;
+  background-color: rgba(100,100,100, 0.75);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+}
+
+.untrue {
+  color: red;
+}
+
+.untrue a:link {
+  color: #FF0000;
+}
+
+.untrue a:visited {
+  color: #440000;
+}
+
+.neo {
+  outline: black solid 1px;
+  border-radius: 5px;
+}
