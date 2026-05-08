@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+	color: #32cd32;
+	color-scheme: only dark;
+	font-family: serif;
+	justify-content: center;
+}
+
+hr {
+	color: yellow;
+}
+			
+.box {
+	margin: 0% 15%;
+	padding: 0% 2%;
+	border: medium solid yellow;
+	text-align: center;
+	line-height: 0.5;
+}
+
+.lineHeight {
+	line-height: 1;
+}
+
+a:hover {
+	color: gold;
+}
+
+a:link {
+	color: #0000ff;
+}
+
+a:visited{
+	color: #ff0000;
+}
+
+a:active {
+	color: #800080;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+		<title>LTECenter</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/date.js" defer></script>
+	</head>
+	<body>
+		<div class=box>
+			<header>
+				<h1 class=lineHeight>LTECenter</h1>
+				<p id=date></p>
+				<p><a href='about.html'>ABOUT</a> | <a href='rules.html'>RULES</a> | <a href='credits.html'>CREDITS</a></p>
+			</header>
+			<hr>
+			<div class=lineHeight id=list></div>
+		</div>
+		<script>
+			function createList() {
+				const lte = new Map([ // Initially sorted by ascending creation date for cleanliness. It'll be sorted by character length later.
+					["Flaming Chicken's LTE", 203941], // ~2004
+					["Hermnerp's LTE", 230624], // January 19th, 2004
+					["The Longest Text Page", 23893], // July 2012
+					["REDACTED NAME's LTE", 21425], // ~2013
+					["RainbowFluffySheep's LoTeEv", 250536], // March 2nd, 2018
+					["WhileTrue's LTE", 79766], // March 2019
+					["the pink-ish pickle LTE", 309004], // February 13th, 2020
+					["Mckenzie's LTE", 287812], // March 4th, 2020
+					["Iseycupcake's LTE", 92522], // May 29th, 2020
+					["BusterDdog's Kinda Boring Life", 12734], // January 8th, 2021
+					["KaixioGD's Longest Text EVERRRRR", 49157], // March 31st, 2021
+					["'My LTE'", 5589], // June 12th, 2021
+					["The Book of Monika", 13357], // June 15th, 2021
+					["Textra LTE", 14487], // September 10th, 2021
+				]);
+				
+				const lteSort = new Map([...lte.entries()].sort((a, b) => b[1] - a[1]));
+				const list = document.getElementById('list');
+				let sortIterator = 0;
+				
+				for (let name of lteSort.keys()) {
+					switch(sortIterator) {
+						case 0:
+							e = document.createElement('h2');
+							e.style.color = 'gold';
+							e.id = 'firstPlace';
+							break;
+						case 1:
+							e = document.createElement('h3');
+							e.style.color = 'gray';
+							e.id = 'secondPlace';
+							break;
+						case 2:
+							e = document.createElement('h4');
+							e.style.color = 'sienna';
+							e.id = 'thirdPlace';
+							break;
+						default:
+							e = document.createElement('p');
+					}
+					
+					
+					e.textContent = name;
+					list.appendChild(e);
+					sortIterator++;
+				}
+			}
+			
+			createList();
+		</script>
+	</body>
+</html>
