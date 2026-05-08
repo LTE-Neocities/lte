@@ -18,7 +18,19 @@ body {
   padding: 10px 20px;
 }
 
+.untrue {
+  color: red;
+}
+
+.untrue a:link {
+  color: #FF0000;
+}
+
+.untrue a:visited {
+  color: #440000;
+}
+
 .neo {
- outline: black solid 1px;
- border-radius: 5px;
+  outline: black solid 1px;
+  border-radius: 5px;
 }
