@@ -1,0 +1,289 @@
+{
+	"lastUpdated": "May 8th, 2026",
+	"entries": {
+		"flaming-chicken": {
+			"name": "Flaming Chicken's LTE",
+			"characters": 203941,
+			"creationDate": "November 2002",
+			"lastUpdateDate": "~2005",
+			"description": "The ORIGINAL",
+			"link": "http://www.angelfire.com/falcon/flamingchickens/abcd.html"
+		},
+		"hermnerp": {
+			"name": "Hermnerp's LTE",
+			"characters": 230634,
+			"creationDate": "January 19th, 2004",
+			"lastUpdateDate": "~2009",
+			"description": "One of the ORIGINALs",
+			"link": "http://www.angelfire.com/amiga2/hermnerp"
+		},
+		"nuclearpoultry": {
+			"name": "The Longest Text Page",
+			"characters": 23893,
+			"creationDate": "Late July, 2012",
+			"lastUpdateDate": "July 24th, 2012",
+			"description": "Written by NuclearPoultry. Made using a strange website builder and still up after all these years",
+			"link": "http://nuclearpoultry.yolasite.com"
+		},
+		"redacted-name": {	
+			"name": "[REDACTED NAME]'s LTE",
+			"characters": 203941,
+			"creationDate": "~2013",
+			"lastUpdateDate": "~2015",
+			"description": "Originally hosted on a Geocities mirror service before it got taken down. Archive has been redacted of personal information upon the original author's request.",
+			"link": "http://www.geocities.ws"
+		},
+		"rainbowfluffysheep": {
+			"name": "RainbowFluffySheep",
+			"segments": {
+				"1": {
+					"name": "RainbowFluffySheep's LoTeEv (Part 1)",
+					"characters": 147554,
+					"creationDate": "March 2nd, 2018",
+					"lastUpdateDate": "December 7th, 2019",
+					"description": "Currently the first result that shows when you Google 'longest text ever'. Also doesn't follow the LTE acronym, instead making one of their own. Silly you!",
+					"link": "https://rainbowfluffysheep.wordpress.com/the-longest-text-ever"
+				},
+				"2": {
+					"name": "RainbowFluffySheep's LoTeEv (Part 2)",
+					"characters": 102992,
+					"creationDate": "Sometime after Part 1",
+					"lastUpdateDate": "May 5th, 2020",
+					"description": "The second part to the RainbowFluffySheep saga.",
+					"link": "https://rainbowfluffysheep.wordpress.com/the-loteev-section-2"
+				}
+			}
+		},
+		"whiletrue": {
+			"name": "WhileTrue's LTE",
+			"characters": 79766,
+			"creationDate": "March 2019",
+			"lastUpdateDate": "March 5th, 2024",
+			"description": "One of the more recognizable LTEs, used across the internet in various places. Original author has taken down the live version, but you know us! Always archivin'!",
+			"link": "https://whiletrue.neocities.org/lte"
+		},
+		"pink-ish-pickle": {
+			"name": "the pink-ish pickle LTE",
+			"characters": 322100,
+			"creationDate": "February 13th, 2020",
+			"lastUpdateDate": "Active",
+			"description": "Well here's a familar face!",
+			"link": "https://pink-ish-pickle-longesttextever.neocities.org"
+		},
+		"mckenzie": {
+			"name": "Mckenzie's LTE",
+			"characters": 287812,
+			"creationDate": "March 4th, 2020",
+			"lastUpdateDate": "November 2nd, 2025",
+			"description": "Written by howds. Well here's a familar face!",
+			"link": "https://howds.neocities.org/lte",
+			"refuseArchive": true
+		},
+		"iseycupcake": {
+			"name": "Iseycupcake's LTE",
+			"characters": 92522,
+			"creationDate": "May 29th, 2020",
+			"lastUpdateDate": "December 28th, 2020",
+			"description": "An inoffensive LTE, not much else to say.",
+			"link": "https://iseycupcake.neocities.org/IseycupcakeLTE"
+		},
+		"busterddog": {
+			"name": "BusterDdog's Kinda Boring Life",
+			"characters": 12734,
+			"creationDate": "January 8th, 2021",
+			"lastUpdateDate": "February 19th, 2021",
+			"description": "One of the few LTEs to not directly label itself as an LTE. Submitted due to affiliation with Pink Pickle.",
+			"link": "https://busterddogskindaboringlife.neocities.org"
+		},
+		"kaixiogd": {
+			"name": "KaixioGD's Longest Text EVERRRRR",
+			"characters": 49157,
+			"creationDate": "March 31st, 2021",
+			"lastUpdateDate": "September 14th, 2021",
+			"description": "Discovered recently, which is strange since it was made in 2021...",
+			"link": "https://kaixiogd-lte.neocities.org"
+		},
+		"textra": {
+			"name": "Textra LTE",
+			"characters": 14487,
+			"creationDate": "September 10th, 2021",
+			"lastUpdateDate": "February 16th, 2023",
+			"description": "Had a scuffed attempt of ASCII art as a header. Live version has been deleted; use the archive.",
+			"link": "https://textra.neocities.org"
+		},
+		"knockton": {
+			"name": "Knockton's Potato LTE",
+			"characters": 657113,
+			"creationDate": "June 2nd, 2022",
+			"lastUpdateDate": "April 12th, 2025",
+			"description": "The once-crowned first place of the list, now dethroned. Their use of JSON to store their entries inspired the internal workings of this list!",
+			"link": "https://knockton.neocities.org"
+		},
+		"monika": {
+			"name": "The Book of Monika",
+			"characters": 13357,
+			"creationDate": "June 15th, 2022",
+			"lastUpdateDate": "June 19th, 2022",
+			"description": "Mentions they're a representative of 'Monika'. Which Monika? We may never know... Was originally hosted as a text file. Live version has been deleted; use the archive.",
+			"link": "https://bookofmonika.neocities.org/monika.txt"
+		},
+		"of2019": {
+			"name": "大円三とわはＳＭＭ's LTE",
+			"characters": 64312,
+			"creationDate": "September 9th, 2022",
+			"lastUpdateDate": "Unknown",
+			"description": "One of the first LTEs to be directly submitted, and the first on this list to use Google Docs as a medium of distribution.",
+			"link": "https://docs.google.com/document/d/1lEsNoTej61up2OJ6ej6kdVK9WwmwbXMxYQ1wg-Zy3Fk"
+		},
+		"slashii": {
+			"name": "Slashii LTE",
+			"characters": 100000,
+			"creationDate": "May 21st, 2023",
+			"lastUpdateDate": "Active",
+			"description": "This one has an eye for detail. That's all I'll say",
+			"link": "https://slashii.neocities.org/lte"
+		},
+		"falconslte": {
+			"name": "Falcon XWPlays's LTE",
+			"characters": 153339,
+			"creationDate": "June 29th, 2023",
+			"lastUpdateDate": "April 7th, 2025",
+			"description": "Very similar in design to the Slashii LTE. Coincidence? Eh, maybe.",
+			"link": "https://falconslte.neocities.org"
+		},
+		"ltea": {
+			"name": "'lteaaaaaaa'",
+			"characters": 1608,
+			"creationDate": "November 5th, 2023",
+			"lastUpdateDate": "November 11th, 2023",
+			"description": "Another weird one. Also the shortest on the list. Why did we even list this",
+			"link": "https://lteaaaaaaa.neocities.org"
+		},
+		"spice04": {
+			"name": "spice04's LTE",
+			"characters": 133657,
+			"creationDate": "December 6th, 2023",
+			"lastUpdateDate": "Active",
+			"description": "not danish also known as dansk. Archive leads to a version with previously deleted text at 116,709 characters.",
+			"link": "https://spice04code.neocities.org/thepage",
+			"forceArchive": true
+		},
+		"dfc454": {
+			"name": "dfc454's LTE of stupidity",
+			"characters": 129061,
+			"creationDate": "September 13th, 2024",
+			"lastUpdateDate": "November 7th, 2025",
+			"description": "Might live up to the name (joking! joking!) There are two iterations interestingly, however the archived iteration will only count towards placement. Affiliated with Ohnkata and sprout.",
+			"link": "https://thelongesttextever.neocities.org"
+		},
+		"ohnkata": {
+			"name": "whyislands LTE of the",
+			"characters": 865175,
+			"creationDate": "January 2025",
+			"lastUpdateDate": "Active",
+			"description": "The current first place of the list. It is... it is... great words from the magic man. It's absurd how much this guy writes I cannot even fathom it. Introduced a lot of the newer LTE writers to the list.",
+			"link": "https://ohnkata.neocities.org"
+		},
+		"sprout": {
+			"name": "sprout's LTE of drugs",
+			"characters": 526446,
+			"creationDate": "March 20th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "Another Google Docs LTE. There are some non-English elements and dysfunctional rambling throughout, as is usual for a typical LTE. Affiliated with Ohnkata and dfc454.",
+			"link": "https://docs.google.com/document/d/1j_4JpNM8BwMvPtHaBjfkF0nuaMzWd8ps8hJwI1wYLNo"
+		},
+		"sslink": {
+			"name": "sslink's spinning LTE",
+			"characters": 30823,
+			"creationDate": "March 24th, 2025",
+			"lastUpdateDate": "April 25th, 2025",
+			"description": "Yet another Google Docs LTE. A fun read",
+			"link": "https://docs.google.com/document/d/1OofhVsI7DDJbaqZ1Mrx7T4kHNdgfBvl_8b_G7g3dNM0"
+		},
+		"longtext": {
+			"name": "'My LTE'",
+			"characters": 5589,
+			"creationDate": "March 29th, 2025",
+			"lastUpdateDate": "August 10th, 2025",
+			"description": "Strange little LTE. Author has no known name as the Neocities username seems to pertain solely to the task of being an LTE.",
+			"link": "https://longtext.neocities.org"
+		},
+		"misc544": {
+			"name": "Misc Practice's Longest Text Ever",
+			"characters": 8369,
+			"creationDate": "March 29th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "Originally being an LTE hosted on Fandom Wiki of all places, a successor was published on Neocities with excerpts from their original LTE pieced in.",
+			"link": "https://misc544.neocities.org/lte"
+		},
+		"jaiden2013": {
+			"name": "The Land Walrus LTE",
+			"untrue": true,
+			"creationDate": "June 18th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "Originally being the previous first place before Ohnkata and after Knockton, this LTE has been defined as untrue by our standards due to violations of rules 3, 4, 9, and 10.",
+			"link": "https://jaiden2013.neocities.org/Writing"
+		},
+		"cyanbyte": {
+			"name": "Cy's LTE",
+			"characters": 19924,
+			"creationDate": "July 11th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "Submittion through email. Has a unique matrix-like website theme.",
+			"link": "https://cyanbyte.neocities.org/creations/writing/lte"
+		},
+		"ricky": {
+			"name": "Ricky's LTE",
+			"characters": 30823,
+			"creationDate": "October 6th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "There sure are a lot of these Google Docs LTEs, huh? Affiliated with Ohnkata.",
+			"link": "https://docs.google.com/document/d/1fPP3rVGkFOyAYDMHqma-gunvkOpiD1o_zpwbXDZL1_o"
+		},
+		"stlepsy": {
+			"name": "Maple's No Lifer Project",
+			"characters": 75803,
+			"creationDate": "December 7th, 2025",
+			"lastUpdateDate": "Active",
+			"description": "This one takes a geographical theme in terms of the content of entries. Affiliated with Ohnkata.",
+			"link": "https://stlepsy.neocities.org"
+		},
+		"shade": {
+			"name": "Shade",
+			"segments": {
+				"1": {
+					"name": "Shade's (old) LTE!",
+					"characters": 141431,
+					"creationDate": "~2023",
+					"lastUpdateDate": "Sometime before their Revolutions LTE",
+					"description": "Originally hosted on Angelfire before that died. Luckily, we were able to snag a copy just before it all came crashing down!",
+					"link": "https://evilweaselz.angelfire.com/nekoriki/comicallylong.html"
+				},
+				"2": {
+					"name": "Shade's Revolutions LTE",
+					"characters": 42089,
+					"creationDate": "January 26th, 2026",
+					"lastUpdateDate": "Active",
+					"description": "The sequel(?) to their old LTE, now hosted on Neocities!",
+					"link": "https://sweet-fever.neocities.org/thethirdlteohmygod"
+				}
+			}
+		},
+		"farragofiction": {
+			"name": "FarragoFiction LTE",
+			"characters": 39728,
+			"creationDate": "March 20th, 2026",
+			"lastUpdateDate": "Active",
+			"description": "The spiritual successor to the Flaming Chicken's LTE. Text is scrombled on page load, so you'll need to go digging for the source text file to try to make any sense of it.",
+			"link": "http://farragofiction.com/LTESim/"
+		},
+		"sourtoastcrunch": {
+			"name": "Sourtoastcrunch's very cool LTE",
+			"untrue": true,
+			"creationDate": "April 20th, 2026",
+			"lastUpdateDate": "Active",
+			"description": "This LTE had been defined as untrue due to poor conduct from the author.",
+			"link": "https://docs.google.com/document/d/1QlazTMh6ZUcslmfFMXFoznJGmZ9PTG8Ktyuf9Ax0nrw"
+		}
+	}
+}
