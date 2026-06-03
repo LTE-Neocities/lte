@@ -64,3 +64,44 @@ a:visited{
 a:active {
 	color: #800080;
 }
+
+
+
+/* dropdown styling */
+.lteInfo {
+	margin: 0.5em auto 1em auto;
+	padding: 0.5em;
+	width: 80%;
+		max-height: 0;
+				opacity: 0;
+				overflow: hidden;
+				transition: max-height .35s ease, opacity .25s ease;
+				padding-left: 1em;
+}
+
+.lteInfo p {
+	margin: 0.5em 0;
+}
+
+#list h2, #list h3, #list h4, #list p {
+	transition: color 0.15s ease;
+}
+
+#list h2:hover, #list h3:hover, #list h4:hover, #list p:hover {
+	filter: brightness(1.420); 
+	cursor: pointer;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns. thx w3 schools */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
