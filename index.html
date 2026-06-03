@@ -2,82 +2,239 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>LTECenter</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 		<script src="js/date.js" defer></script>
 	</head>
-	<body onload=createList()>
-		<div class=box>
+
+	<body onload="createList()">
+		<div class="box">
 			<header>
-				<h1 class=lineHeight>LTECenter</h1>
-				<p id=date></p>
-				<p><a href='about.html'>ABOUT</a> | <a href='rules.html'>RULES</a> | <a href='credits.html'>CREDITS</a></p>
+				<h1 class="lineHeight">LTECenter</h1>
+				<p id="date"></p>
+				<p>
+					<a href="about.html">ABOUT</a> |
+					<a href="rules.html">RULES</a> |
+					<a href="credits.html">CREDITS</a>
+				</p>
 			</header>
+
 			<hr>
-			<div class=lineHeight id=list></div>
+
+			<div class="lineHeight" id="list"></div>
 		</div>
-		<div class=trans>
-			<div class=infoBox>
+
+		<div class="trans">
+			<div class="infoBox">
 				<p>hiasjasdjasjasjd</p>
 				<p>aahahahaha</p>
 			</div>
 		</div>
-	</body>
-	<script>
-		async function fetchJSON(url) {
-			try {
-				let r = await fetch(url),
-				d = await r.json();
-				return d;
-			} catch (e) {
-				console.error('didnt work, but i'm sure you are a nice person:', e);
+
+<script>
+	async function fetchJSON(url) {
+		try {
+			let r = await fetch(url),
+			d = await r.json();
+			return d;
+		} catch (e) {
+			console.error('didnt work, but im sure you are a nice person:', e);
+		}
+	}
+	
+	async function createList() {
+		const jList = await fetchJSON('./list.json'),
+		lteMap = new Map();
+		
+		for (let [id, properties] of Object.entries(jList.entries)) {
+			
+			if (!properties.untrue && !properties.segments) {
+
+				lteMap.set(id, [
+					properties.name,
+					properties.characters,
+					properties
+				]);
+
+			} else if (properties.segments) {
+
+				let allChars = 0;
+
+				for (let [s, sProps] of Object.entries(properties.segments))
+					if (!sProps.untrue)
+						allChars += sProps.characters
+
+				lteMap.set(id, [
+					`[${properties.name}]`,
+					allChars,
+					properties
+				]);
 			}
 		}
 		
-		async function createList() {
-			const jList = await fetchJSON('./list.json'),
-			lteMap = new Map();
-			
-			for (let [id, properties] of Object.entries(jList.entries)) { // essentially stole from knockton LOL
-				if (!properties.untrue && !properties.segments) {
-					lteMap.set(id, [properties.name, properties.characters]);
-				} else if (properties.segments) {
-					let allChars = 0;
-					for (let [s, sProps] of Object.entries(properties.segments)) if (!sProps.untrue) allChars += sProps.characters
-					lteMap.set(id, [`[${properties.name}]`, allChars]);
+		const lteSort = new Map(
+			[...lteMap.entries()]
+			.sort((a, b) => b[1][1] - a[1][1])
+		);
+
+		const list = document.getElementById('list');
+		let sortIterator = 0;
+		
+		for (let [name, count, data] of lteSort.values()) {
+
+			let e;
+
+			switch(sortIterator) {
+				case 0:
+					e = document.createElement('h2');
+					e.style.color = 'gold';
+					e.id = 'firstPlace';
+					break;
+
+				case 1:
+					e = document.createElement('h3');
+					e.style.color = 'gray';
+					e.id = 'secondPlace';
+					break;
+
+				case 2:
+					e = document.createElement('h4');
+					e.style.color = 'sienna';
+					e.id = 'thirdPlace';
+					break;
+
+				default:
+					e = document.createElement('p');
+			}
+				
+			e.textContent = name;
+
+			/* clickable */
+			e.style.cursor = 'pointer';
+			list.appendChild(e);
+
+			/* properties dropdown */
+			const info = document.createElement('div');
+
+			info.className = 'lteInfo';
+
+			info.style.maxHeight = '0';
+			info.style.opacity = '0';
+
+	/* segments formatting */
+			if (data.segments) {
+
+				let html = `
+					<h5>
+						<b>
+						Total Characters:
+						${count.toLocaleString()}
+						</b>
+					</h5>
+					<br>
+				`;
+
+				for (const segment of Object.values(data.segments)) {
+
+					html += `
+						<div style="margin-bottom:10px;">
+							<h5>
+								<b>${segment.name}</b>
+							</h5>
+				<hr>
+					<h5>${segment.description}</h5>
+					<h5>
+						<b>Characters:
+						<br>
+						${segment.characters.toLocaleString()}
+						</b>
+					</h5>
+            <br>
+            <div class="column">
+					<h5>
+					Created: ${segment.creationDate}
+					</h5>
+          </div>
+           <div class="column">
+					<h5>
+          Status: ${segment.lastUpdateDate}
+					</h5>
+          </div>
+
+					<h5>
+						<a href="${segment.link}" target="_blank">
+							Visit LTE
+						</a>
+					</h5>
+						</div>
+					`;
 				}
+	html += `
+						<hr>
+						</div>
+					`;
+				info.innerHTML = html;
+
+			} else {
+			  
+	/* normal formatting */
+				info.innerHTML = `
+				<hr>
+					<h5>${data.description}</h5>
+					<h5>
+						<b>Characters:
+						<br>
+						${data.characters.toLocaleString()}
+						</b>
+					</h5>
+            <br>
+            <div class="column">
+					<h5>
+					Created: ${data.creationDate}
+					</h5>
+          </div>
+           <div class="column">
+					<h5>
+          Status: ${data.lastUpdateDate}
+					</h5>
+          </div>
+
+					<h5>
+						<a href="${data.link}" target="_blank">
+							Visit LTE
+						</a>
+					</h5>
+					<hr>
+					<br><br><br>
+				`;
 			}
-			
-			const lteSort = new Map([...lteMap.entries()].sort((a, b) => b[1][1] - a[1][1]));
-			const list = document.getElementById('list');
-			let sortIterator = 0;
-			
-			for (let [name, count] of lteSort.values()) {
-				switch(sortIterator) {
-					case 0:
-						e = document.createElement('h2');
-						e.style.color = 'gold';
-						e.id = 'firstPlace';
-						break;
-					case 1:
-						e = document.createElement('h3');
-						e.style.color = 'gray';
-						e.id = 'secondPlace';
-						break;
-					case 2:
-						e = document.createElement('h4');
-						e.style.color = 'sienna';
-						e.id = 'thirdPlace';
-						break;
-					default:
-						e = document.createElement('p');
-				}		
-					
-				e.textContent = name;
-				list.appendChild(e);
-				sortIterator++;
-			}
+
+			e.addEventListener('click', () => {
+
+				const closed =
+					info.style.maxHeight === '' ||
+					info.style.maxHeight === '0px';
+
+				if (closed) {
+
+					info.style.maxHeight =
+						info.scrollHeight + 'px';
+
+					info.style.opacity = '1';
+
+				} else {
+
+					info.style.maxHeight = '0';
+					info.style.opacity = '0';
+				}
+			});
+
+			list.appendChild(info);
+
+			sortIterator++;
 		}
-	</script>
+	}
+</script>
+	</body>
 </html>
